@@ -34,6 +34,7 @@ img{
     display: flex;
     text-decoration: none;
     outline: none;
+    max-width: 300px;
 }
 .notification-text{
     color: #000;
