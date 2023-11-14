@@ -1,0 +1,140 @@
+﻿@font-face {
+    font-family: 'Calibri';
+    src: url('Calibri.eot');
+    src: local('Calibri'),
+        url('fonts/Calibri.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Calibri.woff2') format('woff2'),
+        url('fonts/Calibri.woff') format('woff'),
+        url('fonts/Calibri.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+*,
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.notification{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 25px 0;
+}
+.notification-logo{
+    display: flex;
+    text-decoration: none;
+    outline: none;
+}
+.notification-text{
+    color: #000;
+    font-family: Calibri;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.4px;
+}
+.mail-block__btn{
+    color: #FFF;
+    font-family: Calibri;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 8px;
+    background: #F4C74B;
+    padding: 12px 22px;
+    display: block;
+    text-decoration: none;
+    margin: 0 auto;
+    transition: all 0.3s;
+    border: none;
+    cursor: pointer;
+    max-width: 210px;
+    width: 100%;
+    text-align: center;
+}
+.mail-block__content svg{
+    display: block;
+}
+.mail-block__content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 99px 0 70px;
+    grid-gap: 35px;
+}
+.register-block{
+    max-width: 100%;
+    width: 100%;
+    padding: 60px 0 0;
+}
+.register-form__input input{
+    color: #000;
+    font-family: Calibri;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
+    transition: all 0.3s;
+    padding: 16px 10px;
+    border-radius: 8px;
+    border: 1px solid #B5C0AB;
+    background: #FFF;
+    display: block;
+    width: 100%;
+}
+.register-form__input input::placeholder{
+    color: #B5C0AB;
+}
+.register-form{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 15px;
+    max-width: 210px;
+    width: 100%;
+    margin: 0 auto;
+}
+.register-form__input input[type=submit]{
+    background: #F4C74B;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+.register-block__title{
+    color: #000;
+    font-family: Calibri;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    padding: 0 0 15px;
+}
+.register-form__reset{
+    color: #F4C74B;
+    font-family: Calibri;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-color: transparent;
+    transition: all 0.3s;
+    text-underline-offset: 3px;
+    margin: 4px auto 0;
+}
+.register-form__reset:hover{
+    text-decoration-color: inherit;
+}
